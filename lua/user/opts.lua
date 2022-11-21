@@ -1,4 +1,5 @@
 local opt = vim.opt
+local g = vim.g
 
 opt.cursorline = true
 opt.encoding = 'utf8'
@@ -35,3 +36,6 @@ opt.smartcase = true
 
 -- Other
 opt.mouse='a'
+
+-- Airline
+g["airline_powerline_fonts"] = 1
