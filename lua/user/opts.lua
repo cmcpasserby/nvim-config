@@ -23,6 +23,7 @@ opt.foldlevel = 9
 opt.syntax = "ON"
 opt.termguicolors = true
 vim.cmd "colorscheme wombat"
+opt.guifont="JetBrains Mono:h12"
 
 -- Splits
 opt.splitright = true
