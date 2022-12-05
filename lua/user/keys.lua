@@ -20,11 +20,11 @@ map('n', '<Leader>cd', ':cd %:p:h<CR>:pwd<CR>', {noremap = true, silent = true})
 -- OS Clipboard
 if vim.fn.has("clipboard") then
     if vim.fn.has("win32") then
-        map('n', '<Leader>y', '"*y', {noremap = true, silent = true})
-        map('n', '<Leader>p', '"*gP', {noremap = true, silent = true})
+        map('', '<Leader>y', '"*y', {noremap = true, silent = true})
+        map('', '<Leader>p', '"*gP', {noremap = true, silent = true})
     else
-        map('n', '<Leader>y', '"+y', {noremap = true, silent = true})
-        map('n', '<Leader>p', '"+gP', {noremap = true, silent = true})
+        map('', '<Leader>y', '"+y', {noremap = true, silent = true})
+        map('', '<Leader>p', '"+gP', {noremap = true, silent = true})
     end
 end
 
