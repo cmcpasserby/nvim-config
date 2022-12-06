@@ -8,8 +8,8 @@ map('v', '>', '>gv', {noremap = true, silent = true})
 map('v', '<Leader>s', ':sort<CR>', {noremap = true, silent = true})
 
 -- start and end of line motions
-map('n', 'H', '^', {noremap = true, silent = true})
-map('n', 'L', 'g_', {noremap = true, silent = true})
+map('', 'H', '^', {noremap = true, silent = true})
+map('', 'L', 'g_', {noremap = true, silent = true})
 
 -- Clear matches
 map('n', '<Leader><Space>', ':noh<CR>', {noremap = true, silent = true})
