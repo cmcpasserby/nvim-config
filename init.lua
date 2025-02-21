@@ -1,3 +1,3 @@
-require('user.plug')
-require('user.opts')
-require('user.keys')
+require("config.lazy")
+require("config.opts")
+require("config.keys")

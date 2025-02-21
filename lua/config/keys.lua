@@ -27,4 +27,3 @@ if vim.fn.has("clipboard") then
         map('', '<Leader>p', '"+gP', {noremap = true, silent = true})
     end
 end
-

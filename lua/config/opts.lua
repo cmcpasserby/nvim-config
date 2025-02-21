@@ -22,7 +22,6 @@ opt.foldlevel = 9
 -- Theme
 opt.syntax = "ON"
 opt.termguicolors = true
-vim.cmd "colorscheme wombat"
 opt.guifont="JetBrains Mono:h12"
 
 -- Splits
