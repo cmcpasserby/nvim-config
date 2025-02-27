@@ -19,7 +19,7 @@ map('n', '<Leader>cd', ':cd %:p:h<CR>:pwd<CR>', {noremap = true, silent = true})
 
 -- OS Clipboard
 if vim.fn.has("clipboard") then
-    if vim.fn.has("win32") then
+    if vim.loop.os_uname().sysname == "win32" then
         map('', '<Leader>y', '"*y', {noremap = true, silent = true})
         map('', '<Leader>p', '"*gP', {noremap = true, silent = true})
     else
